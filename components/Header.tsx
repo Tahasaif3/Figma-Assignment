@@ -2,12 +2,11 @@ import React from 'react';
 
 export default function Header() {
   return (
-    <header className="bg-[#A3997F] py-1">
-      <div className="container mx-1 px-4">
-      <h1 className="text-white font-rye text-[40px] w-[439] ">
-      MANZZARI
-     </h1>
+   {/* Header */}
+      <div className="bg-[#B5A88B] py-4">
+        <div className="container mx-auto px-4">
+          <h1 className="text-white text-4xl font-serif">MANZZARI</h1>
+        </div>
       </div>
-    </header>
   );
 }
