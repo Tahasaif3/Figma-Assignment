@@ -22,7 +22,8 @@ export default function Component() {
               FINESSE
             </h2>
             <p className="text-[#A3997F] font-libre-bodoni font-medium text-3xl w-[942]">
-            An example of intricate workmanship and detail, elegant necklaces and long and short chains form a part of our desirable collection.            </p>
+            An example of intricate workmanship and detail, elegant necklaces and long and short chains form a part of our desirable collection.         
+            </p>
             <button className="inline-block bg-[#A3997F] text-white px-8 py-3 font-libre-bodoni text-lg md:text-xl font-medium">
               Explore Now
             </button>
@@ -31,7 +32,6 @@ export default function Component() {
           {/* Right Side Image */}
           <div className="md:col-span-6 md:col-start-7">
             <div className="relative h-[600px] md:h-[700px] w-full max-w-[500px] mx-auto">
-              {/* Outer Layer with Visible Borders */}
               <div
                 className="absolute inset-0"
                 style={{
@@ -40,7 +40,6 @@ export default function Component() {
                   background: "linear-gradient(135deg, rgba(255,255,255,0.8), rgba(181,168,139,0.3))",
                 }}
               >
-                {/* Inner Layer with Image */}
                 <div
                   className="relative h-full w-full"
                   style={{
@@ -50,7 +49,7 @@ export default function Component() {
                 >
                   <Image
                     src="/design.jpg"
-                    alt="Elegant woman wearing luxury jewelry"
+                    alt="Figma Image"
                     fill
                     className="object-cover"
                     priority
